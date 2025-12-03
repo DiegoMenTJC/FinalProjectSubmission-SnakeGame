@@ -32,7 +32,7 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 			Game theGame( wnd );
 			while( wnd.ProcessMessage() )
 			{
-				theGame.Go();
+				//theGame.Go();
 			}
 		}
 		catch( const ChiliException& e )
